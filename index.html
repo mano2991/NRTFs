@@ -18,8 +18,12 @@
             justify-content: space-between;
             align-items: center;
         }
-        header h1 {
-            margin: 0;
+        header h1 a {
+            color: white;
+            text-decoration: none;
+        }
+        header h1 a:hover {
+            text-decoration: underline;
         }
         header .menu {
             display: flex;
@@ -66,7 +70,7 @@
 <body>
 
 <header>
-    <a href= "https://venkateshlab.science/" target="_blank"><h1>Venkatesh Lab</h1></a>
+    <h1><a href="https://venkateshlab.science/" target="_blank">Venkatesh Lab</a></h1>
     <div class="menu">
         <button class="tab-button" onclick="openTab('tab1')">NRTF1_NRTF6</button>
         <button class="tab-button" onclick="openTab('tab2')">GFP_7dpi</button>
@@ -82,7 +86,7 @@
 
 <footer>
     Developed by Manojkumar | 
-    <a href="https://mano2991.github.io/Mano2991/" target="_blank">GitHub</a>
+    <a href="https://github.com/mano2991" target="_blank">GitHub</a>
 </footer>
 
 <script>
